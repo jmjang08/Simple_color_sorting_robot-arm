@@ -47,7 +47,7 @@ meArm Robot Arm
 * Arduino UNO
 * Servo motors (Base, Shoulder, Elbow, Claw)
 * ESP32-CAM module
-* USB cable (PC ↔ Arduino)
+* Arduino cable (PC ↔ Arduino)
 * Stable lighting (for color detection)
 
 ---
@@ -65,9 +65,9 @@ meArm Robot Arm
 
 * Flash **CameraWebServer** example to the ESP32
 * Confirm live image access via browser
-* ESP32-CAM should be able to see robot arm and workspace entirely
-* (I used two sheets of A4 paper stacked together as my workspace.)
-* Copy the camera base URL into `url.txt`
+* ESP32-CAM should be able to see robot arm and workspace entirely<br>
+(I used two sheets of white A4 paper stacked together as my workspace.)
+* Paste the camera base URL into `url.txt`
 
 ```
 # Example:
