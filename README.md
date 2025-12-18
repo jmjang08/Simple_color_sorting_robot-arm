@@ -41,23 +41,6 @@ meArm Robot Arm
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── a_calibrate_homography.py      # Perspective calibration (camera → real plane)
-├── a_hsv_tuner.py                 # HSV tuning for green objects
-├── a_hsv_tuner_black.py           # HSV tuning optimized for black objects
-├── b_color_detect.py              # Object detection + real-world coordinates (for debug)
-├── c_color_detect_and_IK.py       # Detection + inverse kinematics (for debug)
-├── final_com_with_P.py            # Pick & place with P-control
-├── final_arm.ino                  # Arduino firmware for servo control
-├── url.txt                        # ESP32 Camera base URL
-├── (homography_matrix.json)       # Generated calibration matrix via calibrate_homography.py
-```
-
----
-
 ## ⚙️ Hardware Requirements
 
 * meArm-style 4-DOF robotic arm + custom gripper(final_cads)
